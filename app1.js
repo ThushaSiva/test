@@ -24,7 +24,7 @@ $(document).ready(function(){
 });
 */
 
-$("#filename").change(function(e){
+/* $("#filename").change(function(e){
 	var ext = $("#filename").val().split(".").pop().toLowerCase();
 
 	if($.inArray(ext, ["csv"]) == -1) {
@@ -41,6 +41,7 @@ $("#filename").change(function(e){
 		reader.readAsText(e.target.files.item(0));
 	}
 });
+*/
 
 var tabulate = function (data,columns) {
   var table = d3.select('body').append('table')
