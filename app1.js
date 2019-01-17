@@ -1,4 +1,4 @@
-/*
+
 //this is the 1st way.
 $(document).ready(function(){
     $('#upload').click(function(){
@@ -22,9 +22,9 @@ $(document).ready(function(){
         }
     });
 });
-*/
 
- $("#filename").change(function(e){
+
+/* $("#filename").change(function(e){
 	var ext = $("#filename").val().split(".").pop().toLowerCase();
 
 	if($.inArray(ext, ["csv"]) == -1) {
